@@ -1,0 +1,33 @@
+#all_of_sword{
+	width: 500px;
+	margin: auto;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	border-radius: 30px;
+}
+
+.list_title{
+	display: none;
+
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+p{
+	font-size: 15px;
+	padding:  10px;
+	margin-top: 10px;
+}

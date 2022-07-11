@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>나에 대해서</title>
+	<link rel="stylesheet" type="text/css" href="./final.css">
+
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- 부가적인 테마 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".why_sword").click(function(){
+
+				if($(".list_one").css("display") == 'none'){
+					$(".list_one").show();
+				} else{
+					$(".list_one").hide();
+				}
+				
+			});
+			$(".what_hobby").click(function(){
+
+				if($(".list_two").css("display") == 'none'){
+					$(".list_two").show();
+				} else{
+					$(".list_two").hide();
+				}
+				
+			});
+			$(".what_interest").click(function(){
+				if($(".list_three").css("display") == 'none'){
+					$(".list_three").show();
+				} else{
+					$(".list_three").hide();
+				}
+			});
+
+		})
+	</script>
+
+
+
+</head>
+<body>
+
+	<div id="all_of_sword">
+		
+		<div>
+			<a href="https://namu.wiki/w/%EC%96%B8%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C%20%EB%B8%94%EB%A0%88%EC%9D%B4%EB%93%9C%20%EC%9B%8C%ED%81%AC%EC%8A%A4" target="_blank">
+			<img src="data:image/jpeg;base64,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" width="300" height="300">
+			</a>
+		</div>
+
+		<div>
+			<p class="bg-primary why_sword">왜 검인가요?</p>
+
+			<ul class="list_title list_one">
+				<li>제가 검을 좋아해서</li>
+			</ul>
+
+			<p class="bg-success what_hobby">취미가 뭐에요?</p>
+			
+			<ul class="list_title list_two">
+				<li>게임</li>
+				<li>애니</li>
+			</ul>
+
+			<p class="bg-info what_interest">요즘에 관심있는 것은?</p>
+			
+			<ul class="list_title list_three">
+				<li>시사</li>
+				<li>여행</li>
+			</ul>
+		</div>
+
+		<div class="footer">
+			
+			<p>
+				연락처: <span style="color:green">fosehdwl@naver.com</span> / 010-3485-9414
+			</p>
+
+		</div>
+
+	</div>
+</body>
+</html>

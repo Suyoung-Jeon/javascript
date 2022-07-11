@@ -1,0 +1,11 @@
+a {
+	color:pink;
+}
+
+table,td {
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: square;
+}

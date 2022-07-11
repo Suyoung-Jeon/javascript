@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#숨기기").click(function(){
+				$("div").hide();
+			});
+			$("#보이기").click(function(){
+				$("div").show();
+			});
+			$("#move").click(function(){
+				$("div").animate({left:'400px'});
+			});
+		});
+	</script>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<button id="숨기기">숨기기</button>
+	<button id="보이기">보이기</button>
+	<button id="move">움직이기</button>
+	<div>
+		어떤 내용물이 있습니다.
+	</div>
+	
+
+</body>
+</html>

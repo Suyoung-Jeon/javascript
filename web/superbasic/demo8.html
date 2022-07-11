@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	<div id = "mydivid">
+
+	</div>
+
+ 	<script type="text/javascript">
+ 		function testFunction(){
+ 			alert("Hello")
+ 		}
+
+ 		
+ 		
+ 	</script>
+
+ 	<button id= "bu" onclick="testFunction()"> 안녕버튼</button>
+
+ 	<script type="text/javascript">
+ 		let names = ["name1","name2","name3","name4"]
+ 		var bua = document.getElementById('bu');
+ 		bua.addEventListener('click',function(event){
+ 			document.getElementById("mydivid").innerHTML = names;
+ 		})
+ 	</script>
+</body>
+</html>
